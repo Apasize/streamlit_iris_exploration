@@ -19,7 +19,7 @@ Ce projet permet d'explorer la base de données IRIS à l'aide de l'application 
 
 Avant de lancer l'application, assurez-vous que vous avez installé les dépendances suivantes :
 
-- Python 3.x
+- Python 3.10
 - Streamlit
 - Pandas
 - Seaborn
@@ -31,3 +31,11 @@ Avant de lancer l'application, assurez-vous que vous avez installé les dépenda
    ```bash
    git clone https://github.com/Apasize/streamlit_iris_exploration.git
    cd streamlit-iris-exploration
+   
+2. Installer les dépendances :
+   ```bash
+   pip install -r requirements.txt
+
+3. Lancer le projet :
+   ```bash
+   streamlit run app.py
