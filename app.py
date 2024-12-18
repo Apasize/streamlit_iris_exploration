@@ -10,6 +10,12 @@ def validate_columns(data):
     return all(col in data.columns for col in expected_columns)
 
 
+st.set_page_config(
+    page_title="Analyse de données avec Streamlit",
+    page_icon="📊",
+    layout="wide"
+)
+
 # Titre de l'application
 st.title("Exploration de la base de données IRIS")
 
