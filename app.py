@@ -11,7 +11,7 @@ def validate_columns(data):
 
 
 st.set_page_config(
-    page_title="Analyse de données avec Streamlit",
+    page_title="Data analysis with Streamlit",
     page_icon="📊",
     layout="wide"
 )
